@@ -1,0 +1,375 @@
+Output captured from Google Colab (Python 3 runtime, g++ -std=c++17)
+Notebook: https://colab.research.google.com/github/suma544/library-management-system/blob/main/Library_Management_System.ipynb
+Run date: 2026-11-20
+
+### Cell 1 output
+Writing library_management.cpp
+
+
+### Cell 2 output
+Compiled successfully
+
+
+### Cell 3 output
+Writing sample_input.txt
+
+
+### Cell 4 output
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Add Book ---
+Title: Author: Number of copies: Book added with ID 101.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Add Book ---
+Title: Author: Number of copies: Book added with ID 102.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Add Book ---
+Title: Author: Number of copies: Book added with ID 103.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Add Book ---
+Title: Author: Number of copies: Book added with ID 104.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Add Member ---
+Member name: Member registered with ID 201.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Add Member ---
+Member name: Member registered with ID 202.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- All Books (4) ---
+ID    Title                           Author                Available
+------------------------------------------------------------------------
+101   The C++ Programming Language    Bjarne Stroustrup     2 / 2
+102   Clean Code                      Robert C. Martin      1 / 1
+103   Effective Modern C++            Scott Meyers          1 / 1
+104   Let Us C                        Yashavant Kanetkar    3 / 3
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Search Book ---
+Search by (1 = Title, 2 = Author): Enter keyword: 2 book(s) found matching "c++" in title:
+ID    Title                           Author                Available
+------------------------------------------------------------------------
+101   The C++ Programming Language    Bjarne Stroustrup     2 / 2
+103   Effective Modern C++            Scott Meyers          1 / 1
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Search Book ---
+Search by (1 = Title, 2 = Author): Enter keyword: 1 book(s) found matching "martin" in author:
+ID    Title                           Author                Available
+------------------------------------------------------------------------
+102   Clean Code                      Robert C. Martin      1 / 1
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Issue Book ---
+Book ID: Member ID: "Clean Code" issued to Ravi Kumar on 2026-11-20.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Issue Book ---
+Book ID: Member ID: Issue failed: no copies of "Clean Code" available.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Issue Book ---
+Book ID: Member ID: "The C++ Programming Language" issued to Priya Sharma on 2026-11-20.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- All Books (4) ---
+ID    Title                           Author                Available
+------------------------------------------------------------------------
+101   The C++ Programming Language    Bjarne Stroustrup     1 / 2
+102   Clean Code                      Robert C. Martin      0 / 1
+103   Effective Modern C++            Scott Meyers          1 / 1
+104   Let Us C                        Yashavant Kanetkar    3 / 3
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Return Book ---
+Book ID: Member ID: "Clean Code" returned by Ravi Kumar on 2026-11-20.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Return Book ---
+Book ID: Member ID: Return failed: book 103 is not issued to member 202.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Issue Book ---
+Book ID: Member ID: "Clean Code" issued to Priya Sharma on 2026-11-20.
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Borrowing Records (3) ---
+Book                          Member          Issued       Returned     Status
+--------------------------------------------------------------------------------
+Clean Code                    Ravi Kumar      2026-11-20   2026-11-20   Returned
+The C++ Programming Language  Priya Sharma    2026-11-20   -            Issued
+Clean Code                    Priya Sharma    2026-11-20   -            Issued
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- All Members (2) ---
+ID    Name                  Books Borrowed
+------------------------------------------
+201   Ravi Kumar            0 / 3
+202   Priya Sharma          2 / 3
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: All records saved. Goodbye!
+
+
+### Cell 5 output
+===== books.txt =====
+101|The C++ Programming Language|Bjarne Stroustrup|2|1
+102|Clean Code|Robert C. Martin|1|0
+103|Effective Modern C++|Scott Meyers|1|1
+104|Let Us C|Yashavant Kanetkar|3|3
+
+===== members.txt =====
+201|Ravi Kumar|0
+202|Priya Sharma|2
+
+===== issues.txt =====
+102|201|2026-11-20|2026-11-20
+101|202|2026-11-20|-
+102|202|2026-11-20|-
+
+
+
+### Cell 6 output
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- All Books (4) ---
+ID    Title                           Author                Available
+------------------------------------------------------------------------
+101   The C++ Programming Language    Bjarne Stroustrup     1 / 2
+102   Clean Code                      Robert C. Martin      0 / 1
+103   Effective Modern C++            Scott Meyers          1 / 1
+104   Let Us C                        Yashavant Kanetkar    3 / 3
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: 
+--- Borrowing Records (3) ---
+Book                          Member          Issued       Returned     Status
+--------------------------------------------------------------------------------
+Clean Code                    Ravi Kumar      2026-11-20   2026-11-20   Returned
+The C++ Programming Language  Priya Sharma    2026-11-20   -            Issued
+Clean Code                    Priya Sharma    2026-11-20   -            Issued
+
+======= LIBRARY MANAGEMENT SYSTEM =======
+1. Add Book
+2. Add Member
+3. Display All Books
+4. Display All Members
+5. Search Book (Title / Author)
+6. Issue Book
+7. Return Book
+8. View Borrowing Records
+9. Exit
+Enter your choice: All records saved. Goodbye!
